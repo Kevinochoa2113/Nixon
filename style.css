@@ -1,0 +1,83 @@
+html {
+    cursor: url(images/Nixon.png), pointer;
+    zoom: -2.5;
+    background: linear-gradient(#23258a, #0000f0);
+}
+
+div.main{
+    background-color: rgb(177, 43, 39);
+    border: rgb(206, 32, 32) 2px solid;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Retrotype';
+    font-size: 50px;
+}
+
+#main {
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Numerals';
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: Retrotype;
+    src: url(Retrotype.ttf);
+}
+
+@font-face {
+    font-family: Numerals;
+    src: url(Numerals.ttf);
+}
+
+img.pres {
+    width: 400px;
+    height: 400px;
+    display: none;
+}
+
+div.pres {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: rgb(177, 43, 39);
+    border: rgb(206, 32, 32) 2px solid;
+    border-radius: 2rem;
+}
+
+
+html.thanks{
+    background-color: red;
+}
+body.thanks {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body{
+    overflow: hidden;
+}
+
+#img1{
+    position: absolute;
+    margin-left:  180px;
+}
+#empty{
+    display: block;
+    height: 400px;
+    width: 400px;
+}
