@@ -68,9 +68,6 @@ body.thanks {
     transform: translate(-50%, -50%);
 }
 
-body{
-    overflow: hidden;
-}
 
 #img1{
     position: absolute;
